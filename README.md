@@ -72,4 +72,10 @@ Install all necessary components for the Catppuccin theme:
 ### Steps:
 
 1. Download the preferred cursor (Light, dark or material)
-2. Extract files at
+2. Extract files at .icons folder created previously
+
+- Installing the icons: I use the default adwaita icons, you can choose the one you like most (Also with cursor)
+### Steps:
+
+1. Download the preferred icon pack
+2. Extract files at .icons folder created previously
