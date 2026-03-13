@@ -1,7 +1,8 @@
-# Steam Temes guide
+# 🎮 Steam Temes guide
 
-In this part, I'll show you how to adapt steam to your main theme. All this can be found here: https://github.com/tkashkin/Adwaita-for-Steam
+To make Steam match your GNOME desktop perfectly, we’ll use the **Adwaita-for-Steam** skin. This allows you to apply themes like Catppuccin or Gruvbox to the Steam client.
 
+All resources and detailed documentation can be found at the official site: https://github.com/tkashkin/Adwaita-for-Steam
 ## Installation
 
 1. Clone or download the repository:
@@ -24,4 +25,4 @@ cd Adwaita-for-Steam
 ---
 ## Preview
 
-![Steam Theme](./Steam/Steam.png)
+![Steam](./Steam.png)
