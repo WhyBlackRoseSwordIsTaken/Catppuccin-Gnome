@@ -344,3 +344,20 @@ The core configuration is complete! You can find the specific assets and configu
 Wallpapers:
 Terminal Setup:
 Steam Theme:
+
+---
+
+## Wallpapers Preview
+
+| | | | |
+| :---: | :---: | :---: | :---: |
+| ![Aesthetic I](./Wallpapers/Aesthetic%20I.png) | ![Knight I](./Wallpapers/Knight%20I.jpg) | ![Landscape I](./Wallpapers/Landscape%20I.jpg) | ![Landscape II](./Wallpapers/Landscape%20II.jpg) |
+| **Aesthetic I** | **Knight I** | **Landscape I** | **Landscape II** |
+| ![Landscape III](./Wallpapers/Landscape%20III.png) | ![Landscape IV](./Wallpapers/Landscape%20IV.png) | ![Landscape V](./Wallpapers/Landscape%20V.jpg) | ![Math I](./Wallpapers/Math%20I.png) |
+| **Landscape III** | **Landscape IV** | **Landscape V** | **Math I** |
+| ![Math II](./Wallpapers/Math%20II.png) | ![Pacman](./Wallpapers/Pacman.png) | ![Roses I](./Wallpapers/Roses%20I.jpg) | ![Sakura I](./Wallpapers/Sakura%20I.jpg) |
+| **Math II** | **Pacman** | **Roses I** | **Sakura I** |
+| ![Sakura II](./Wallpapers/Sakura%20II.jpg) | ![Sakura III](./Wallpapers/Sakura%20III.png) | ![Solar System I](./Wallpapers/Solar%20System%20I.png) | ![Totoro](./Wallpapers/Totoro.png) |
+| **Sakura II** | **Sakura III** | **Solar System I** | **Totoro** |
+
+---
