@@ -65,7 +65,7 @@ mkdir -p ~/.icons
 1. Clone or download the repository:
 ```bash
 git clone https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme.git
-cd Catppuccin-GTK-Theme
+cd Catppuccin-GTK-Theme-main/themes
 ```
 2. Run the installation script:
 ```bash
@@ -95,7 +95,7 @@ cd Catppuccin-GTK-Theme
 #### Steps:
 1. Download your preferred icon pack (Adwaita comes pre-installed)
 2. Extract to the `.icons` folder
-3. Apply the theme in GNOME Tweaks:
+3. Apply the icons in GNOME Tweaks:
 - Open GNOME Tweaks
 - Go to Appearance → Icons
 - Select your preferred icon theme
@@ -108,10 +108,30 @@ cd Catppuccin-GTK-Theme
 #### Steps:
 1. Download your preferred cursor pack (The one I use: https://www.gnome-look.org/p/1346778)
 2. Extract to the `.icons` folder
-3. Apply the theme in GNOME Tweaks:
+3. Apply the cursor in GNOME Tweaks:
 - Open GNOME Tweaks
 - Go to Appearance → Cursors
 - Select your downloaded cursor theme
+
+### Installing the fonts
+
+**Fonts:** Any font from https://fonts.google.com/ or use the already installed ones
+
+#### Steps:
+1. Download your preferred font (The one I use: https://fonts.google.com/specimen/Comic+Neue)
+2. Extract to the fonts folder:
+```bash
+mkdir -p ~/.local/share/fonts
+unzip font-name.zip -d ~/.local/share/fonts
+```
+3. Refresh the font cache:
+```bash
+fc-cache -fv
+```
+4. Apply the font in GNOME Tweaks:
+- Open GNOME Tweaks
+- Go to fonts
+- Select your downloaded font
 
 ---
 
@@ -121,10 +141,11 @@ To enhance your Catppuccin rice, you'll need extensions. You can search here: ht
 
 The ones I recommend/use are listed below, but don't forget to explore and find the ones you like:
 
-### Blur My Shell
+### Blur My Shell:
+
+**Link:** https://extensions.gnome.org/extension/3193/blur-my-shell/
 
 **Description:** It blurs many apps, menus, and the shell itself. Visually beautiful.
-
 
 **Recommended Configuration:**
 
@@ -156,49 +177,62 @@ The ones I recommend/use are listed below, but don't forget to explore and find 
 
 ---
 
-### Extension List
+### Extension List:
+
+**Link:** https://extensions.gnome.org/extension/3088/extension-list/
 
 **Description:** It shows a puzzle piece icon in the top bar so you can see and manage extensions without opening the Extensions Manager app.
 
 ---
 
-### Logo Menu
+### Logo Menu:
+
+**Link:** https://extensions.gnome.org/extension/4451/logo-menu/
 
 **Description:** It shous a logo in the top bar with many functions, as open the terminal. I actually don't use it, only for decoration haha
 
 ---
 
-### Blur My Shell
+### Media Controls
 
-**Description:** It blurs many apps, menus, and the shell itself. Visually beautiful.
+**Description:** Media player controls displayed in the top bar showing what you're currently listening to. Super useful for studying or working without having to switch to the music player app.
+
+---
+
+### Open Bar
+
+**Link:** https://extensions.gnome.org/extension/6580/open-bar/
+
+**Description:** Extension for customizing open bar (The colors in the previwe images are thanks to this extension)
 
 
-**Recommended Configuration:**
+**Recommended Configuration:** (The options I don't put is cause i left in default)
 
-#### Panel Blur
-- **Status:** Off
+#### Top Bar Properties
+- **Type of Bar:** Floating
+- **Bar Height:** 40
+- **Bar Margins:** 4
+- **Apply in Overview:** Off
 
-#### General View
-- **Background Blur:** On
-- **Flux:** Default
-- **Style:** Light
-- **Folder Blur:** On
-- **Sigma:** 30
-- **Brightness:** 0.60
+#### Bar Foreground
+- **Auto FG Color:** Off
+- **FG Color:** #181927
+- **FG Alpha:** 1
+- **Panel Font:** Comic Neue Bold 12
 
-#### Dialogs
-- **Transparent:** On
+#### Bar Background
+- **Box/Margins Alpha:** 0
+- **Bar BG Color:** #494D64
+- **Bar BG Alpha:** 0,90
+- **Apply Candy Bar palette:** On
+- **For candy Bar Colors visit this website (I use frappe ones):** https://catppuccin.com/palette/
+- **Candy BG Alpha:** 0,90
+- **Panel Shadow:** Off
 
-#### Dash to Dock
-- **Status:** Off
-
-#### Apps
-- **Status:** On
-- **Sigma:** 10
-- **Brightness:** 1
-- **Opacity:** 200
-- **Focused Opaque App:** On
-- **General View Blur:** On
-- **Activate All by Default:** On
-
+#### Bar Border
+- **Width:** 2,0
+- **Apply Width to:** ALL
+- **Corner Radius:** 20
+- **Apply Radius to:** ALL
+- **Color:** #F4DBD6
 ---
