@@ -341,9 +341,9 @@ The ones I recommend/use are listed below, but don't forget to explore and find 
 
 The core configuration is complete! You can find the specific assets and configuration files for each component below:
 
-Wallpapers:
-Terminal Setup:
-Steam Theme:
+- **Wallpapers:** [Explore the gallery](./Wallpapers)
+- **Terminal Setup:**
+- **Steam Theme:** [Theme guide](./Steam)
 
 ---
 
