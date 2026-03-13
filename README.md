@@ -195,6 +195,8 @@ The ones I recommend/use are listed below, but don't forget to explore and find 
 
 ### Media Controls
 
+**Link:** https://extensions.gnome.org/extension/4470/media-controls/
+
 **Description:** Media player controls displayed in the top bar showing what you're currently listening to. Super useful for studying or working without having to switch to the music player app.
 
 ---
@@ -203,10 +205,12 @@ The ones I recommend/use are listed below, but don't forget to explore and find 
 
 **Link:** https://extensions.gnome.org/extension/6580/open-bar/
 
-**Description:** Extension for customizing open bar (The colors in the previwe images are thanks to this extension)
+**Description:** Extension for customizing the top bar. The colors in the preview images are thanks to this extension.
 
 
-**Recommended Configuration:** (The options I don't put is cause i left in default)
+**Recommended Configuration:**
+
+*(Options not listed are left at default)*
 
 #### Top Bar Properties
 - **Type of Bar:** Floating
@@ -225,7 +229,7 @@ The ones I recommend/use are listed below, but don't forget to explore and find 
 - **Bar BG Color:** #494D64
 - **Bar BG Alpha:** 0,90
 - **Apply Candy Bar palette:** On
-- **For candy Bar Colors visit this website (I use frappe ones):** https://catppuccin.com/palette/
+- **Candy Bar Colors:** Visit https://catppuccin.com/palette/ (I use Frappe)
 - **Candy BG Alpha:** 0,90
 - **Panel Shadow:** Off
 
@@ -235,4 +239,108 @@ The ones I recommend/use are listed below, but don't forget to explore and find 
 - **Corner Radius:** 20
 - **Apply Radius to:** ALL
 - **Color:** #F4DBD6
+- **Alpha:** 1
+- **Neon Glow:** Off
+
+#### Popus Menus
+- **Enable Menu Styles:** Off
+
 ---
+
+### Space Bar
+
+**Link:** https://extensions.gnome.org/extension/5090/space-bar/
+
+**Description:** Allows you to customize the workspace bar with custom characters and styling.
+
+**Characters:** I use Roman numerals or dice, but you can use whatever you want. Search for characters here: https://emojidb.org/
+
+**Recommended Configuration:**
+
+#### Behavior
+- **Indicator Style:** Workspaces bar
+- **Position in top Panel:** Center
+- **Show Empty Workspaces:** On
+- **Toggle Overview:** On
+
+#### Appearance
+- **Workspaces-bar Padding:** 10
+- **Workspace Margin:** 2
+
+#### Active Workspace
+- **Background Color:** Invisible (Choose the fully invisible option in custom colors)
+- **Text Color:** #FFFFFF
+- **Border Color:** Invisible
+- **Font Size:** 14-16 (Some special characters may not respond to this setting)
+- **Font Weight:** Extra Bold
+- **Horizontal Padding:** 10
+- **Vertical Padding:** 0
+
+#### Inactive Workspace
+- **Background Color:** Invisible
+- **Text Color:** #303446
+- **Border Color:** Invisible
+
+
+#### Empty Workspace
+- **Background Color:** Invisible
+- **Text Color:** #303446
+- **Border Color:** Invisible
+
+---
+
+### Top Bar Organizer
+
+**Link:** https://extensions.gnome.org/extension/4356/top-bar-organizer/
+
+**Description:** Allows you to reorder and customize the items displayed in the top bar.
+
+**My Configuration:**
+
+#### Left
+- **Logo Menu**
+- **Quick Settings**
+- **Extension List**
+- **Vitals**
+
+#### Center
+- **Activities**
+- **Space Bar**
+
+#### Right
+- **Media Controls**
+- **Date Menu**
+
+---
+
+### Vitals
+
+**Link:** https://extensions.gnome.org/extension/1460/vitals/
+
+**Description:** Shows useful system information in the top bar such as GPU/CPU temperatures, system usage, memory, and more.
+
+---
+
+### Weather O'Clock
+
+**Link:** https://extensions.gnome.org/extension/5470/weather-oclock/
+
+**Description:** Displays the weather next to the clock in the top bar. Requires GNOME Weather to be installed.
+
+**Install GNOME Weather:**
+
+| Distribution | Command |
+|---|---|
+| Ubuntu/Debian | `sudo apt install gnome-weather` |
+| Arch/Manjaro | `sudo pacman -S gnome-weather` |
+| Fedora | `sudo dnf install gnome-weather` |
+
+---
+
+## Additional Resources
+
+The core configuration is complete! You can find the specific assets and configuration files for each component below:
+
+Wallpapers:
+Terminal Setup:
+Steam Theme:
