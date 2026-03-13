@@ -1,12 +1,12 @@
 # Catppuccin Gnome Guide
 
-A comprehensive guide for ricing with catppuccin theme as a base
+A comprehensive guide for ricing with catppuccin theme as a base.
 
 ## Features
 
 - Easy installation instructions
-- Extensions that are useful
 - Full customization guide
+- Extensions that are useful
 - GNOME customization tips
 
 
@@ -24,6 +24,7 @@ A comprehensive guide for ricing with catppuccin theme as a base
 **Menus:**
 ![Catppuccin Theme](./images/5.png)
 
+---
 
 ## Before installing the theme
 
@@ -40,7 +41,7 @@ Install all necessary components so the theme works:
 
 1. Open GNOME Extensions Manager
 2. Search for "User Themes"
-3. Install from: https://extensions.gnome.org/extension/19/user-themes/
+3. You can Install from: https://extensions.gnome.org/extension/19/user-themes/
 
 ### Create Required Folders
 
@@ -51,31 +52,153 @@ mkdir -p ~/.themes
 mkdir -p ~/.icons
 ```
 
+---
+
 ## Installation
 
-Install all necessary components for the Catppuccin theme:
+### Installing the GTK Theme
 
-- Installing the theme: https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme
+**Theme:** https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme
 
-### Steps:
+#### Steps:
 
-1. Follow the official Catppuccin theme GitHub instructions
-2. Choose your preferred:
-   - Color flavor (Mocha, Macchiato, Frappe, Latte)
-   - Tone (Dark or Light)
-   - Variant and accent color
-3. Apply the theme in GNOME TWEAKS
+1. Clone or download the repository:
+```bash
+git clone https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme.git
+cd Catppuccin-GTK-Theme
+```
+2. Run the installation script:
+```bash
+./install.sh
+```
+3. Choose your preferred settings when prompted (Follow official GitHub guide):
+- Flavor: Mocha, Macchiato, Frappe, or Latte
+- Tone: Dark or Light
+- Accent Color: Choose your preferred accent
+
+4. **Important:** Add the `-l` flag to link the theme to libadwaita apps:
+```bash
+./install.sh -l
+```
+
+5. Apply the theme in GNOME Tweaks:
+- Open GNOME Tweaks
+- Go to Appearance → Themes
+- Select your installed Catppuccin theme
+
+**Note:** Sometimes you need to log out and log in to see the changes. 
+
+### Installing Icon Pack
+
+**Icons:** Adwaita (default) or any icon pack from https://www.gnome-look.org
+
+#### Steps:
+1. Download your preferred icon pack (Adwaita comes pre-installed)
+2. Extract to the `.icons` folder
+3. Apply the theme in GNOME Tweaks:
+- Open GNOME Tweaks
+- Go to Appearance → Icons
+- Select your preferred icon theme
 
 
-- Installing the Cursor: https://www.gnome-look.org/p/1346778
+### Installing the Cursor Theme
 
-### Steps:
+**Cursor:** Any cursor from https://www.gnome-look.org
 
-1. Download the preferred cursor (Light, dark or material)
-2. Extract files at .icons folder created previously
+#### Steps:
+1. Download your preferred cursor pack (The one I use: https://www.gnome-look.org/p/1346778)
+2. Extract to the `.icons` folder
+3. Apply the theme in GNOME Tweaks:
+- Open GNOME Tweaks
+- Go to Appearance → Cursors
+- Select your downloaded cursor theme
 
-- Installing the icons: I use the default adwaita icons, you can choose the one you like most (Also with cursor)
-### Steps:
+---
 
-1. Download the preferred icon pack
-2. Extract files at .icons folder created previously
+## Extensions
+
+To enhance your Catppuccin rice, you'll need extensions. You can search here: https://extensions.gnome.org/
+
+The ones I recommend/use are listed below, but don't forget to explore and find the ones you like:
+
+### Blur My Shell
+
+**Description:** It blurs many apps, menus, and the shell itself. Visually beautiful.
+
+
+**Recommended Configuration:**
+
+#### Panel Blur
+- **Status:** Off
+
+#### General View
+- **Background Blur:** On
+- **Flux:** Default
+- **Style:** Light
+- **Folder Blur:** On
+- **Sigma:** 30
+- **Brightness:** 0.60
+
+#### Dialogs
+- **Transparent:** On
+
+#### Dash to Dock
+- **Status:** Off
+
+#### Apps
+- **Status:** On
+- **Sigma:** 10
+- **Brightness:** 1
+- **Opacity:** 200
+- **Focused Opaque App:** On
+- **General View Blur:** On
+- **Activate All by Default:** On
+
+---
+
+### Extension List
+
+**Description:** It shows a puzzle piece icon in the top bar so you can see and manage extensions without opening the Extensions Manager app.
+
+---
+
+### Logo Menu
+
+**Description:** It shous a logo in the top bar with many functions, as open the terminal. I actually don't use it, only for decoration haha
+
+---
+
+### Blur My Shell
+
+**Description:** It blurs many apps, menus, and the shell itself. Visually beautiful.
+
+
+**Recommended Configuration:**
+
+#### Panel Blur
+- **Status:** Off
+
+#### General View
+- **Background Blur:** On
+- **Flux:** Default
+- **Style:** Light
+- **Folder Blur:** On
+- **Sigma:** 30
+- **Brightness:** 0.60
+
+#### Dialogs
+- **Transparent:** On
+
+#### Dash to Dock
+- **Status:** Off
+
+#### Apps
+- **Status:** On
+- **Sigma:** 10
+- **Brightness:** 1
+- **Opacity:** 200
+- **Focused Opaque App:** On
+- **General View Blur:** On
+- **Activate All by Default:** On
+
+---
