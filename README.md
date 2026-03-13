@@ -1,1 +1,1 @@
-# Catppuccin-Gnome
+# Catppuccin Gnome Guide
