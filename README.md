@@ -508,6 +508,12 @@ Look for the logo section at the top and replace "Your File Path" with the absol
 ```
 You should also adjust the width and height to match your specific image's proportions so it doesn't look distorted
 
+## Preview
+
+![Fastfetch](./Fastfetch/Fasfetch_Preview.png)
+
+---
+
 ## ✨ Conclusion & Feedback
 
 And that's it! I hope you enjoy your new Catppuccin GNOME setup. 
