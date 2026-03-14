@@ -1,0 +1,142 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    "logo": {
+    "source": "Your File Path",
+    "width": 30,
+    "height": 18,
+    "padding": {
+        "top": 0,          // Top padding
+        "left": 0,         // Left padding
+        "right": 0         // Right padding
+  }      
+    },
+    "display": {
+        "bar": {
+            "char": {
+                "total": "─"
+            },
+            "color": {
+                "border": "red",
+                "total": "red"
+            },
+            "width": 10
+        },
+        "percent": {
+            "type": 3,
+            "ndigits": 2
+        },
+        "key": {
+            "width": 16
+        },
+        "separator": "",
+        "color": {
+            "title": "white",
+            "output": "red"
+        }
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "key": "╭─System─────┬───────────────────────────────────────────────────╮",
+            "keyColor": "white"
+        },
+        {
+            "type": "host",
+            "key": "├╴󰌢 PC       │",
+            "keyColor": "white"
+        },
+        {
+            "type": "os",
+            "key": "├╴ OS       │",
+            "keyColor": "white"
+        },
+        {
+            "type": "wm",
+            "key": "├╴ WM       │",
+            "keyColor": "white"
+        },
+        {
+            "type": "kernel",
+            "key": "├╴ Kernel   │",
+            "keyColor": "white"
+        },
+        {
+            "type": "font",
+            "key": "├╴ Font     │",
+            "keyColor": "white"
+        },
+
+        {
+            "type": "uptime",
+            "key": "├╴ Uptime   │",
+            "keyColor": "white"
+        },
+        {
+            "type": "custom",
+            "key": "╰────────────┴───────────────────────────────────────────────────╯",
+            "keyColor": "white"
+        },
+        {
+            "type": "custom",
+            "key": "╭─Terminal───┬───────────────────────────────────────────────────╮",
+            "keyColor": "white"
+        },
+        {
+            "type": "shell",
+            "key": "├╴ Shell    │",
+            "keyColor": "white"
+        },
+        {
+            "type": "terminal",
+            "key": "├╴ Terminal │",
+            "keyColor": "white"
+        },
+        {
+            "type": "terminalfont",
+            "key": "├╴ Font     │",
+            "keyColor": "white"
+        },
+        {
+            "type": "custom",
+            "key": "╰────────────┴───────────────────────────────────────────────────╯",
+            "keyColor": "white"
+        },
+        {
+            "type": "custom",
+            "key": "╭─Hardware───┬───────────────────────────────────────────────────╮",
+            "keyColor": "white"
+        },
+        {
+            "type": "display",
+            "key": "├╴󰍹 Display  │",
+            "keyColor": "white",
+            "format": "{1}×{2}, {3}Hz"
+        },
+        {
+            "type": "cpu",
+            "key": "├╴ CPU      │",
+            "keyColor": "white",
+            "format": "{1}"
+        },
+        {
+            "type": "gpu",
+            "key": "├╴󰾲 GPU      │",
+            "keyColor": "white"
+        },
+        {
+            "type": "disk",
+            "key": "├╴ Disk     │",
+            "keyColor": "white",
+            "format": "{13} {1} / {2}"
+        },
+        {
+            "type": "custom",
+            "key": "╰────────────┴───────────────────────────────────────────────────╯",
+            "keyColor": "white"
+        },
+{
+    "type": "custom",
+    "format": "\u001b[33m 󰮯 \u001b[31m• \u001b[32m• \u001b[33m• \u001b[34m• \u001b[35m• \u001b[36m• \u001b[37m• \u001b[38;2;254;128;25m• \u001b[38;2;184;187;38m• \u001b[38;2;131;165;152m•"
+}
+    ]
+}
