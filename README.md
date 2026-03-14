@@ -13,16 +13,16 @@ A comprehensive guide for ricing with catppuccin theme as a base.
 ## Visual Examples
 
 **Desktop:**
-![Catppuccin Theme](./images/1.png)
+![Catppuccin Theme](./Preview/1.png)
 
 **Terminal:**
-![Catppuccin Theme](./images/3.png)
+![Catppuccin Theme](./Preview/3.png)
 
 **Files and Brave:**
-![Catppuccin Theme](./images/4.png)
+![Catppuccin Theme](./Preview/4.png)
 
 **Menus:**
-![Catppuccin Theme](./images/5.png)
+![Catppuccin Theme](./Preview/5.png)
 
 ---
 
