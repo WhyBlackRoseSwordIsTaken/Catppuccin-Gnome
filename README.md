@@ -343,7 +343,7 @@ The core configuration is complete! You can find the specific assets and configu
 
 - **Wallpapers:** [Explore the gallery](./Wallpapers)
 - **Terminal Setup:**
-- **Steam Theme:** [Read the installation guide](./Steam/Steam.md)
+- **Steam Theme:** [Read the installation guide](./Steam/Steam_Themes.md)
 
 ---
 
