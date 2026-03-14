@@ -507,3 +507,14 @@ Look for the logo section at the top and replace "Your File Path" with the absol
   }   
 ```
 You should also adjust the width and height to match your specific image's proportions so it doesn't look distorted
+
+## ✨ Conclusion & Feedback
+
+And that's it! I hope you enjoy your new Catppuccin GNOME setup. 
+
+If you find any **errors**, feel free to open an **issue** or leave a comment. Suggestions for things I might have missed are always welcome! 🚀
+
+Happy ricing! :)
+
+![Linux](./Preview/Linux.gif)
+
