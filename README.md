@@ -341,13 +341,7 @@ The ones I recommend/use are listed below, but don't forget to explore and find 
 
 The core configuration is complete! You can find the specific assets and configuration files for each component below:
 
-- **Wallpapers:** [Explore the gallery](./Wallpapers)
-- **Terminal Setup:**
-- **Steam Theme:** [Read the installation guide](./Steam/Steam_Themes.md)
-
----
-
-## Wallpapers Preview
+## Wallpapers Preview: [Explore the gallery](./Wallpapers)
 
 | | | | |
 | :---: | :---: | :---: | :---: |
@@ -361,3 +355,32 @@ The core configuration is complete! You can find the specific assets and configu
 | **Sakura II** | **Sakura III** | **Solar System I** | **Totoro** |
 
 ---
+
+## 🎮 Steam Themes Guide
+
+To make Steam match your GNOME desktop perfectly, we’ll use the **Adwaita-for-Steam** skin. This allows you to apply themes like Catppuccin or Gruvbox to the Steam client.
+
+All resources and detailed documentation can be found at the official site: https://github.com/tkashkin/Adwaita-for-Steam
+## Installation
+
+1. Clone or download the repository:
+```bash
+git clone https://github.com/tkashkin/Adwaita-for-Steam
+cd Adwaita-for-Steam
+./install.py
+```
+
+2. List Options
+```bash
+./install.py -l
+```
+
+3. Install Customizations (Example)
+```bash
+./install.py -c catppuccin-frappe -e library/hide_whats_new
+```
+
+---
+## Preview
+
+![Steam](./Steam/Steam.png)
